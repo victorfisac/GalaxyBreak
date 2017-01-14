@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Google Play game services IDs.
+ Save this file as res/values/games-ids.xml in your project.
+ -->
+<resources>
+    <string name="app_id">548780087004</string>
+    <string name="package_name">com.VictorFisac.GalaxyBreak</string>
+    <string name="achievement_buy_a_ship">CgkI3K3ervwPEAIQAg</string>
+    <string name="achievement_good_player">CgkI3K3ervwPEAIQAw</string>
+    <string name="achievement_increible_player">CgkI3K3ervwPEAIQBA</string>
+    <string name="achievement_awesome_player">CgkI3K3ervwPEAIQBQ</string>
+    <string name="achievement_boss_player">CgkI3K3ervwPEAIQBg</string>
+    <string name="leaderboard_hall_of_fame">CgkI3K3ervwPEAIQAQ</string>
+</resources>
