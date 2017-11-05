@@ -292,7 +292,7 @@ public class SocialPlatfromSettingsEditor : Editor {
 				intent_filter.GetOrCreatePropertyWithName("category", "android.intent.category.BROWSABLE");
 				SA.Manifest.PropertyTemplate data = intent_filter.GetOrCreatePropertyWithTag("data");
 				data.SetValue("android:scheme", "oauth");
-				data.SetValue("android:host", PlayerSettings.bundleIdentifier);
+				data.SetValue("android:host", PlayerSettings.applicationIdentifier);
 			} 
 		} else {
 			if(SocialProxyActivity != null) {

@@ -1,4 +1,6 @@
-﻿Shader "Fisac/Background Gradient Vignette"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Fisac/Background Gradient Vignette"
 {
 	Properties
 	{
@@ -60,7 +62,7 @@
 				OUT vert (IN v)
 				{
 					OUT o;
-					o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+					o.pos = UnityObjectToClipPos(v.vertex);
 					_Ratio *= 2;
 					_Ratio -=1;
 					o.uv = v.uv;

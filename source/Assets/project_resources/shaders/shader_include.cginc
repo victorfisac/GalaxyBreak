@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 #ifndef MARVELOUS_INCLUDED
 #define MARVELOUS_INCLUDED
 
@@ -114,7 +116,7 @@ inline half3 specularLight(half3 viewDirection, half3 normalDirection,half3 ligh
 CL_OUT_WPOS calculateLighting(CL_IN v,half3 rimColor,half rimPower,half3 f_color,half3 r_color,half3 t_color){
 	
 	CL_OUT_WPOS o;
-	o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
+	o.pos = UnityObjectToClipPos (v.vertex);
 	half4 wpos = mul( unity_ObjectToWorld, half4(v.vertex.xyz,1) );
 #if defined(USE_FOG) || defined(USE_DIST_LIGHT) || defined(USE_GRADIENT) || (defined(USE_SPECULAR)&& defined(USE_SPECULAR_PIXEL_SHADING))
 	o.wpos = wpos;

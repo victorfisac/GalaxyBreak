@@ -10,31 +10,21 @@ Material:
   m_Shader: {fileID: 4800000, guid: abe43c22e291642dca09f04fc0e69f06, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
+  disabledShaderPasses: []
   m_SavedProperties:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TexEnvs:
-    - first:
-        name: _MainTex
-      second:
+    - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - first:
-        name: _Power
-      second: 1
-    - first:
-        name: _Ratio
-      second: 0.5
-    - first:
-        name: _VignetteMax
-      second: 0.25
+    - _Power: 1
+    - _Ratio: 0.5
+    - _VignetteMax: 0.25
     m_Colors:
-    - first:
-        name: _BottomColor
-      second: {r: 0.92941177, g: 0.13333334, b: 0.29411766, a: 1}
-    - first:
-        name: _TopColor
-      second: {r: 0, g: 0.24705882, b: 0.3137255, a: 1}
+    - _BottomColor: {r: 0.92941177, g: 0.13333334, b: 0.29411766, a: 1}
+    - _TopColor: {r: 0, g: 0.24705882, b: 0.3137255, a: 1}
