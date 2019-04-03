@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/project_resources/scenes/splash.unity
+    path: Assets/GalaxyBreak/project_resources/scenes/splash.unity
     guid: f0c73e9f907d6fc429aef92c0e23e661
   - enabled: 1
-    path: Assets/project_resources/scenes/GalaxyBreak.unity
+    path: Assets/GalaxyBreak/project_resources/scenes/GalaxyBreak.unity
     guid: 7a06ba36b63b5b5468dd3033d18e9c38
   m_configObjects: {}
