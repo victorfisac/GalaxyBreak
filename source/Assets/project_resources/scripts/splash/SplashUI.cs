@@ -57,7 +57,7 @@ public class SplashUI : MonoBehaviour
     public void ChangeScene()
     {
     	// Load game scene
-		SceneManager.LoadScene("Game");
+		SceneManager.LoadScene("game");
     }
 
     public void OpenURL()
