@@ -29,9 +29,6 @@ public class GameplayManager : MonoBehaviour
 	[Tooltip("Starting game invisible button disabled when gameplay starts")]
 	[SerializeField] private Button startPlayingButton;
 
-	[Tooltip("Watch and win reward amount text")]
-	[SerializeField] private Text watchAndWinText;
-
 	[Header("Gameplay")]
 	[Tooltip("Gameplay canvas group for transition")]
 	[SerializeField] private CanvasGroup gameplayGroup;
@@ -173,9 +170,6 @@ public class GameplayManager : MonoBehaviour
 
 	[Tooltip("Volume sprite game object disabled when audio is muted")]
 	[SerializeField] private GameObject volumeObject;
-
-	[Tooltip("Watch and Win button game object disabled when pressed")]
-	[SerializeField] private GameObject rewardButton;
 	#endregion
 
 	#region Private Members
@@ -261,9 +255,7 @@ public class GameplayManager : MonoBehaviour
 				// Check Android physic buttons input
 				if (Input.GetKeyDown(KeyCode.Escape))
 				{
-					#if !UNITY_EDITOR
 					gameManager.HidePreloader();
-					#endif
 
 					switch (menuController.CurrentMenu)
 					{
@@ -368,13 +360,6 @@ public class GameplayManager : MonoBehaviour
 		// Enable menu buttons and disable gameplay buttons
 		for (int i = 0; i < menuButtons.Length; i++) menuButtons[i].interactable = true;
 
-		// Update watch and win reward text
-		#if !UNITY_EDITOR
-		watchAndWinText.text = ProjectManager.rewardCoins.ToString();
-		#else
-		watchAndWinText.text = "0";
-		#endif
-
 		// Disable start playing button during menu animation
 		startPlayingButton.interactable = false;
 
@@ -399,22 +384,7 @@ public class GameplayManager : MonoBehaviour
 
 	private void InitAds()
 	{
-		#if !UNITY_EDITOR
-		// Call show banner first time to load ad but without displaying it
-		gameManager.ShowBanner();
-		#endif
-
-		// Enable watch and win button for each five played times with a random factor
-		int random = Random.Range(0, 2);
-		if (random == 1)
-		{
-			rewardButton.SetActive(true);
-
-			#if !UNITY_EDITOR
-			// Load rewarded video to avoid waiting when pressing button
-			gameManager.LoadRewardedVideo();
-			#endif
-		}
+		
 	}
 	#endregion
 
@@ -466,10 +436,8 @@ public class GameplayManager : MonoBehaviour
 			// Load intersticial advertisement for each amount of played times
 			if (intersticialTimes >= timesForIntersticial && gameManager.NoAds == 0)
 			{
-				#if !UNITY_EDITOR
 				// Load intersticial advertisement
 				gameManager.LoadIntersticial();
-				#endif
 
 				#if DEBUG_INFO
 				Debug.Log("GameplayManager: attempting to load intersticial advertisement");
@@ -498,9 +466,7 @@ public class GameplayManager : MonoBehaviour
 			Debug.Log("GameplayManager: attempting to buy Android no advertisements product");
 			#endif
 
-			#if !UNITY_EDITOR
 			gameManager.PurchaseProduct(ProjectManager.noAdsId);
-			#endif
 		}
 		#if DEBUG_INFO
 		else Debug.LogWarning("GameplayManager: attempting to call BuyNoAds() when state is not expected");
@@ -515,12 +481,10 @@ public class GameplayManager : MonoBehaviour
 			Debug.Log("GameplayManager: attempting to open Android native share menu");
 			#endif
 
-			#if !UNITY_EDITOR
 			gameManager.ShowPreloader();
 			gameManager.ShareScreenshot(ProjectManager.shareMessage);
 
 			Invoke("DisablePreloader", 3f);
-			#endif
 		}
 		#if DEBUG_INFO
 		else Debug.LogWarning("GameplayManager: attempting to call ShareGame() when state is not expected");
@@ -558,9 +522,7 @@ public class GameplayManager : MonoBehaviour
 			Debug.Log("GameplayManager: attempting to open Android leaderboard");
 			#endif
 
-			#if !UNITY_EDITOR
 			gameManager.ShowLeaderboard(ProjectManager.leaderboardId);
-			#endif
 		}
 		#if DEBUG_INFO
 		else Debug.LogWarning("GameplayManager: attempting to call Leaderboard() when state is not expected");
@@ -607,20 +569,7 @@ public class GameplayManager : MonoBehaviour
 
 	public void WatchAndWin()
 	{
-		if (state == GameplayStates.MENU)
-		{
-			#if DEBUG_INFO
-			Debug.Log("GameplayManager: attempting to show rewarded video advertisement");
-			#endif
-
-			#if !UNITY_EDITOR
-			gameManager.ShowPreloader();
-			gameManager.ShowRewardedVideo();
-			#endif
-		}
-		#if DEBUG_INFO
-		else Debug.LogWarning("GameplayManager: attempting to call WatchAndWin() when state is not expected");
-		#endif
+		
 	}
 
 	public void Pause()
@@ -669,10 +618,9 @@ public class GameplayManager : MonoBehaviour
 		// Disable menu game objects and enable gameplay interactable buttons
 		menuGroup.gameObject.SetActive(false);
 		menuGroup.alpha = 0f;
-		rewardButton.SetActive(false);
+		
 		for (int i = 0; i < gameplayButtons.Length; i++) gameplayButtons[i].interactable = true;
 
-		#if !UNITY_EDITOR
 		if (bannerDown)
 		{
 			// Show banner advertisement
@@ -682,7 +630,6 @@ public class GameplayManager : MonoBehaviour
 			Debug.Log("GameplayManager: attempting to show banner advertisement");
 			#endif
 		}
-		#endif
 
 		// Update pause button and menu
 		pauseButton.interactable = true;
@@ -690,8 +637,7 @@ public class GameplayManager : MonoBehaviour
 
 	public void DisableWatchAndWin()
 	{
-		// Disable reward button to avoid repeat its logic per gameplay
-		rewardButton.SetActive(false);
+		
 	}
 
 	private void ExitGame()
@@ -722,12 +668,10 @@ public class GameplayManager : MonoBehaviour
 		#endif
 	}
 
-	#if !UNITY_EDITOR
 	private void DisablePreloader()
 	{
 		gameManager.HidePreloader();
 	}
-	#endif
 	#endregion
 	#endregion
 
@@ -758,9 +702,7 @@ public class GameplayManager : MonoBehaviour
 				newRecord = true;
 			}
 
-			#if !UNITY_EDITOR
 			CheckAchievements();
-			#endif
 
 			// Play score audio source
 			if (!playAlways && !scoreSource.isPlaying) scoreSource.Play();
@@ -886,10 +828,8 @@ public class GameplayManager : MonoBehaviour
 			{
 				gameManager.BestScore = currentScore;
 
-				#if !UNITY_EDITOR
 				// Submit new record score to leaderboard
 				gameManager.UploadLeaderboard(ProjectManager.leaderboardId, (float)currentScore);
-				#endif
 			}
 
 			// Enable habilities interface disable animator
@@ -941,7 +881,6 @@ public class GameplayManager : MonoBehaviour
 		menuGroup.alpha = 1f;
 		bubbleParticles.Play();
 
-		#if !UNITY_EDITOR
 		// Hide banner advertisement if needed
 		if (bannerDown)
 		{
@@ -961,7 +900,6 @@ public class GameplayManager : MonoBehaviour
 			Debug.Log("GameplayManager: attempting to show rate app pop up");
 			#endif
 		}
-		#endif
 
 		// Show intersticial advertisement for each amount of played times
 		if (intersticialTimes >= timesForIntersticial && gameManager.NoAds == 0)
@@ -969,10 +907,8 @@ public class GameplayManager : MonoBehaviour
 			// Reset played times amount
 			intersticialTimes = 0;
 
-			#if !UNITY_EDITOR
 			// Show intersticial advertisement
 			gameManager.ShowIntersticial();
-			#endif
 
 			#if DEBUG_INFO
 			Debug.Log("GameplayManager: attempting to show intersticial advertisement");
@@ -985,12 +921,9 @@ public class GameplayManager : MonoBehaviour
 		{
 			// Reset played times amount
 			rewardedTimes = 0;
-			rewardButton.SetActive(true);
 
-			#if !UNITY_EDITOR
 			// Load rewarded video to avoid waiting when pressing button
 			gameManager.LoadRewardedVideo();
-			#endif
 		}
 
 		// Instantiate a new player after finish delay
@@ -999,8 +932,7 @@ public class GameplayManager : MonoBehaviour
 		// Disable menu game object after transition
 		Invoke("DisableGameplay", 2f);
 	}
-
-	#if !UNITY_EDITOR
+	
 	private void CheckAchievements()
 	{
 		if (!gameManager.GoodAchievement && (currentScore >= ProjectManager.goodAchievementScore))
@@ -1031,7 +963,6 @@ public class GameplayManager : MonoBehaviour
 			gameManager.SaveData();
 		}
 	}
-	#endif
 
 	private void AddDynamicElement(DynamicElementType type, Vector3 worldPos)
 	{

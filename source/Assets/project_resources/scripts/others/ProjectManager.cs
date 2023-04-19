@@ -13,7 +13,6 @@ public static class ProjectManager
 	public static int extraCoin					= 5;
 	#endregion
 
-	#if !UNITY_EDITOR
 	#region Play Services
 	public static string leaderboardId				= "CgkI3K3ervwPEAIQAQ";
 
@@ -72,5 +71,4 @@ public static class ProjectManager
 	public static string rewardMessageError			= "Cannot load and display any rewarded advertisement. Check your Internet connection and try again later.";
 	public static string rewardMessageSuccess		= "Congratulations! You have earned " + rewardCoins.ToString() + " coins by watching a rewarded video.";
 	#endregion
-	#endif
 }

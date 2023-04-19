@@ -67,21 +67,19 @@ public class Shop : MonoBehaviour
 				// Update current instanced ship model
 				if (gameplayController.CurrentPlayer) gameplayController.CurrentPlayer.SetModel();
 
-				#if !UNITY_EDITOR
 				if (!gameManager.BuyShipAchievement)
 				{
 					gameManager.BuyShipAchievement = true;
 					gameManager.UploadAchievement(ProjectManager.buyShipAchievement);
 					gameManager.SaveData();
 				}
-				#endif
 
 				// Update selected game object to currently selected ship
 				selectedObject.transform.position = elements[gameManager.CurrentShip].PriceText.transform.parent.position;
 			}
-			#if !UNITY_EDITOR
 			else gameManager.ShowPopUp(ProjectManager.shopTitle, ProjectManager.shopError);
-			#elif DEBUG_INFO
+			
+			#if DEBUG_INFO
 			else Debug.Log("Shop: you don't have enought coins to buy this product.");
 			#endif
 		}	
@@ -101,10 +99,10 @@ public class Shop : MonoBehaviour
 
 	public void InAppPurchase(int index)
 	{
-		#if !UNITY_EDITOR
 		// Start Android purchasing flow
 		gameManager.PurchaseProduct(ProjectManager.coinsPackIds[index]);
-		#elif DEBUG_INFO
+		
+		#if DEBUG_INFO
 		Debug.Log("Shop: attempting to buy an Android product");
 		#endif
 	}

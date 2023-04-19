@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da911e54-77ca-47aa-9b94-121d7dd7a204" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.source/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.IOSResolver.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.IOSResolver.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.IOSResolver.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.IOSResolver.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.JarResolver.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.JarResolver.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.JarResolver.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.JarResolver.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.PackageManagerResolver.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.PackageManagerResolver.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.PackageManagerResolver.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.PackageManagerResolver.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.VersionHandlerImpl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.VersionHandlerImpl.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.VersionHandlerImpl.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/1.2.167/Google.VersionHandlerImpl.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/CHANGELOG.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/LICENSE.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.167_manifest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.167_manifest.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Addons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Addons/AndroidNativeActions.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Addons/AndroidNativeActions.zip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Addons/GCMServer.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Addons/GCMServer.zip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Addons/Soomla.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Addons/Soomla/AN_SoomlaEventType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Addons/Soomla/AN_SoomlaEventType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Addons/Soomla/AN_SoomlaGrow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Addons/Soomla/AN_SoomlaGrow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Addons/Soomla/AN_SoomlaProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Addons/Soomla/AN_SoomlaProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Addons/Soomla/AN_SoomlaSocialProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Addons/Soomla/AN_SoomlaSocialProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Documentation/AN_VersionNotes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Documentation/AN_VersionNotes.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Documentation/ReadMe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Documentation/ReadMe.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Controllers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Controllers/AndroidAdMob.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Controllers/AndroidAdMob.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Controllers/AndroidAdMobController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Controllers/AndroidAdMobController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Controllers/GADBannerIdFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Controllers/GADBannerIdFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Enum.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Enum/AndroidMonth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Enum/AndroidMonth.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Enum/GADBannerSize.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Enum/GADBannerSize.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Enum/GADInAppResolution.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Enum/GADInAppResolution.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Enum/GoogleGender.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Enum/GoogleGender.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Enum/GoogleGravity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Enum/GoogleGravity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Enum/GoogleMobileAdEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Enum/GoogleMobileAdEvents.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Interfaces.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Interfaces/GoogleMobileAdBanner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Interfaces/GoogleMobileAdBanner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Interfaces/GoogleMobileAdInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Interfaces/GoogleMobileAdInterface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Models/AndroidADBanner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Ad/Models/AndroidADBanner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Clients.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Clients/AN_InApp_AndroidClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Clients/AN_InApp_AndroidClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Clients/AN_InApp_EditorClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Clients/AN_InApp_EditorClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Enum.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Enum/AN_InAppType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Enum/AN_InAppType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Enum/BillingResponseCodes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Enum/BillingResponseCodes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Enum/GooglePurchaseState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Enum/GooglePurchaseState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Interfaces.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Interfaces/AN_InAppClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Interfaces/AN_InAppClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Manage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Manage/AndroidInAppPurchaseManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Manage/AndroidInAppPurchaseManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Models/AndroidInventory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Models/AndroidInventory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Models/BillingResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Models/BillingResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Tasks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Tasks/InitAndroidInventoryTask.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Tasks/InitAndroidInventoryTask.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Templates.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Templates/GoogleProductTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Templates/GoogleProductTemplate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Templates/GooglePurchaseTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Billing/Templates/GooglePurchaseTemplate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Core/AndroidNativeSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Core/AndroidNativeSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Core/SocialPlatfromSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Core/SocialPlatfromSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/AndroidNativeInit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/AndroidNativeInit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/AndroidNativeMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/AndroidNativeMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/AndroidNativePostProcess.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/AndroidNativePostProcess.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/AndroidNativeSettingsEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/AndroidNativeSettingsEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Enum.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Enum/AN_API_NAME.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Enum/AN_API_NAME.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Enum/AN_Bool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Enum/AN_Bool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/android.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/editorTesting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/editorTesting.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/gallery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/gallery.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/googleplay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/googleplay.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/market.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/market.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/notifications.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/notifications.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/other.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/other.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/sharing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Resources/sharing.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Social.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Social/SocialPlatfromInit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Social/SocialPlatfromInit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Social/SocialPlatfromSettingsEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Social/SocialPlatfromSettingsEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Social/SocialPlatfromSettingsHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Editor/Social/SocialPlatfromSettingsHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Firebase.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Firebase/APIBridge.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Firebase/APIBridge/FirebaseProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Firebase/APIBridge/FirebaseProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Firebase/Analytics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Firebase/Analytics/AN_FirebaseAnalytics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Firebase/Analytics/AN_FirebaseAnalytics.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/GCM.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/GCM/GP_GCM_RegistrationResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/GCM/GP_GCM_RegistrationResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/GCM/GoogleCloudMessageService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/GCM/GoogleCloudMessageService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/Manage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/Manage/GooglePlusAPI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/Manage/GooglePlusAPI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusButton.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusButton/Enums.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusButton/Enums/AN_PlusBtnAnnotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusButton/Enums/AN_PlusBtnAnnotation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusButton/Enums/AN_PlusBtnSize.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusButton/Enums/AN_PlusBtnSize.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusButton/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusButton/Models/AN_PlusButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusButton/Models/AN_PlusButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusButton/Models/AN_PlusButtonsManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusButton/Models/AN_PlusButtonsManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusShare.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusShare/AN_DeepLinkingManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusShare/AN_DeepLinkingManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusShare/AN_PlusShareBuilder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusShare/AN_PlusShareBuilder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusShare/AN_PlusShareListener.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Google+/PlusShare/AN_PlusShareListener.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/AppInvites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/AppInvites/Controllers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/AppInvites/Controllers/GP_AppInvitesController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/AppInvites/Controllers/GP_AppInvitesController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/AppInvites/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/AppInvites/Models/GP_AppInvite.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/AppInvites/Models/GP_AppInvite.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/AppInvites/Models/GP_AppInviteBuilder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/AppInvites/Models/GP_AppInviteBuilder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/AppInvites/Results.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/AppInvites/Results/GP_RetrieveAppInviteResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/AppInvites/Results/GP_RetrieveAppInviteResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/AppInvites/Results/GP_SendAppInvitesResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/AppInvites/Results/GP_SendAppInvitesResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Controllers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Controllers/GooglePlayConnection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Controllers/GooglePlayConnection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Controllers/GooglePlayEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Controllers/GooglePlayEvents.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Controllers/GooglePlayInvitationManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Controllers/GooglePlayInvitationManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Controllers/GooglePlayManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Controllers/GooglePlayManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/AdroidActivityResultCodes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/AdroidActivityResultCodes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GPAchievementState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GPAchievementState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GPAchievementType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GPAchievementType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GPBoardTimeSpan.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GPBoardTimeSpan.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GPCollectionType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GPCollectionType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GPConnectionState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GPConnectionState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GPGameRequestType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GPGameRequestType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GPLogLevel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GPLogLevel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GP_AppStateStatusCodes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GP_AppStateStatusCodes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GP_ConnectionResultCode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GP_ConnectionResultCode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GP_GamesActivityResultCodes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GP_GamesActivityResultCodes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GP_GamesStatusCodes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GP_GamesStatusCodes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GP_InvitationType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GP_InvitationType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GP_MatchesSortOrder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GP_MatchesSortOrder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GP_PlayServicesStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Enum/GP_PlayServicesStatus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GPAchievement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GPAchievement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GPGameRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GPGameRequest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GPLeaderBoard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GPLeaderBoard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GPScore.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GPScore.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GPScoreCollection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GPScoreCollection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GP_Invite.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GP_Invite.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GP_LocalPlayerScoreUpdateListener.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GP_LocalPlayerScoreUpdateListener.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GP_Participant.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GP_Participant.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GP_SnapshotConflict.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GP_SnapshotConflict.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GooglePlayerTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Models/GooglePlayerTemplate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/AN_InvitationInboxCloseResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/AN_InvitationInboxCloseResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/AndroidActivityResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/AndroidActivityResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/AndroidGameActivityResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/AndroidGameActivityResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GP_AchievementResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GP_AchievementResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GP_LeaderboardResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GP_LeaderboardResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GP_ParticipantResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GP_ParticipantResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GP_ScoreResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GP_ScoreResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GP_SpanshotLoadResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GP_SpanshotLoadResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GooglePlayConnectionResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GooglePlayConnectionResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GooglePlayGiftRequestResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GooglePlayGiftRequestResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GooglePlayResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Core/Results/GooglePlayResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Enum.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Enum/GP_QuestSortOrder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Enum/GP_QuestSortOrder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Enum/GP_QuestState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Enum/GP_QuestState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Enum/GP_QuestsSelect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Enum/GP_QuestsSelect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Manage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Manage/GooglePlayQuests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Manage/GooglePlayQuests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Models/GP_Event.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Models/GP_Event.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Models/GP_Quest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Models/GP_Quest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Results.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Results/GP_QuestResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Quests/Results/GP_QuestResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Enum.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Enum/GP_RTM_MessageType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Enum/GP_RTM_MessageType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Enum/GP_RTM_PackageType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Enum/GP_RTM_PackageType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Enum/GP_RTM_ParticipantStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Enum/GP_RTM_ParticipantStatus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Enum/GP_RTM_RoomStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Enum/GP_RTM_RoomStatus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Manage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Manage/GooglePlayRTM.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Manage/GooglePlayRTM.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Models/GP_RTM_NETWORK_PACKAGE.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Models/GP_RTM_NETWORK_PACKAGE.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Models/GP_RTM_ReliableMessageDeliveredResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Models/GP_RTM_ReliableMessageDeliveredResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Models/GP_RTM_ReliableMessageListener.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Models/GP_RTM_ReliableMessageListener.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Models/GP_RTM_ReliableMessageSentResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Models/GP_RTM_ReliableMessageSentResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Models/GP_RTM_Result.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Models/GP_RTM_Result.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Models/GP_RTM_Room.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/RTM/Models/GP_RTM_Room.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/SavedGames.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/SavedGames/Manage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/SavedGames/Manage/GooglePlaySavedGamesManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/SavedGames/Manage/GooglePlaySavedGamesManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/SavedGames/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/SavedGames/Models/GP_Snapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/SavedGames/Models/GP_Snapshot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/SavedGames/Models/GP_SnapshotMeta.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/SavedGames/Models/GP_SnapshotMeta.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/SavedGames/Results.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/SavedGames/Results/GP_DeleteSnapshotResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/SavedGames/Results/GP_DeleteSnapshotResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Enum.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Enum/GP_TBM_MatchStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Enum/GP_TBM_MatchStatus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Enum/GP_TBM_MatchTurnStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Enum/GP_TBM_MatchTurnStatus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Enum/GP_TBM_MatchesSortOrder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Enum/GP_TBM_MatchesSortOrder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Enum/GP_TBM_ParticipantResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Enum/GP_TBM_ParticipantResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Manage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Manage/GooglePlayTBM.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Manage/GooglePlayTBM.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Models/GP_TBM_Match.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Models/GP_TBM_Match.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_CancelMatchResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_CancelMatchResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_LeaveMatchResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_LeaveMatchResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_LoadMatchResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_LoadMatchResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_LoadMatchesResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_LoadMatchesResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_MatchInitiatedResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_MatchInitiatedResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_MatchReceivedResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_MatchReceivedResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_MatchRemovedResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_MatchRemovedResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_UpdateMatchResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/TBM/Results/GP_TBM_UpdateMatchResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Utils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Utils/GooglePlayUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Utils/GooglePlayUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Utils/PlayServiceUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PlayServices/Utils/PlayServiceUtil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PopUps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PopUps/AndroidDialog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PopUps/AndroidDialog.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PopUps/AndroidDialogResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PopUps/AndroidDialogResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PopUps/AndroidDialogTheme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PopUps/AndroidDialogTheme.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PopUps/AndroidMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PopUps/AndroidMessage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PopUps/AndroidRateUsPopUp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PopUps/AndroidRateUsPopUp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PopUps/Base.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PopUps/Base/BaseAndroidPopup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/PopUps/Base/BaseAndroidPopup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Enum.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Enum/FB_AppRequestState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Enum/FB_AppRequestState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Enum/FB_Gender.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Enum/FB_Gender.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Enum/FB_HttpMethod.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Enum/FB_HttpMethod.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Enum/FB_PermissionStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Enum/FB_PermissionStatus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Enum/FB_RequestActionType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Enum/FB_RequestActionType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Enum/FacebookEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Enum/FacebookEvents.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Interfaces.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Interfaces/SP_FB_API.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Interfaces/SP_FB_API.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Manage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Manage/SPFacebook.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Manage/SPFacebook.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Manage/SPFacebookAnalytics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Manage/SPFacebookAnalytics.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Manage/SP_FB_API_v6.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Manage/SP_FB_API_v6.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Manage/SP_FB_API_v7.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Manage/SP_FB_API_v7.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_AppRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_AppRequest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_AppRequestResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_AppRequestResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_LikeInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_LikeInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_Object.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_Object.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_Permission.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_Permission.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_PermissionResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_PermissionResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_ProfileImageSize.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_ProfileImageSize.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_Score.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_Score.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_UserInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Models/FB_UserInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Results.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Results/FB_LoginResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Results/FB_LoginResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Results/FB_PostResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Results/FB_PostResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Results/FB_Result.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Results/FB_Result.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Tasks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Tasks/FB_GrapRequest_V6.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Tasks/FB_GrapRequest_V6.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Tasks/FB_GrapRequest_V7.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Tasks/FB_GrapRequest_V7.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Tasks/FB_LikesRetrieveTask.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Tasks/FB_LikesRetrieveTask.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Tasks/FB_PostingTask.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Facebook/Tasks/FB_PostingTask.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Instagram.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Instagram/Enum.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Instagram/Enum/InstagramEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Instagram/Enum/InstagramEvents.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Instagram/Enum/InstagramPostResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Instagram/Enum/InstagramPostResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Instagram/Manage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Instagram/Manage/AndroidInstagramManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Instagram/Manage/AndroidInstagramManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Models/AsyncTask.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Models/AsyncTask.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Manage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Manage/AndroidTwitterManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Manage/AndroidTwitterManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Manage/TwitterApplicationOnlyToken.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Manage/TwitterApplicationOnlyToken.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Manage/TwitterDataCash.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Manage/TwitterDataCash.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Manage/TwitterManagerInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Manage/TwitterManagerInterface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Models/TWResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Models/TWResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Models/TW_APIRequstResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Models/TW_APIRequstResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Models/TweetTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Models/TweetTemplate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Models/TwitterEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Models/TwitterEvents.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Models/TwitterStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Models/TwitterStatus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Models/TwitterUserInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Models/TwitterUserInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TWAPITest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TWAPITest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TW_APIRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TW_APIRequest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TW_FollowersIdsRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TW_FollowersIdsRequest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TW_FriendsIdsRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TW_FriendsIdsRequest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TW_OAuthAPIRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TW_OAuthAPIRequest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TW_SearchTweetsRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TW_SearchTweetsRequest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TW_UserTimeLineRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TW_UserTimeLineRequest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TW_UsersLookUpRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TW_UsersLookUpRequest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TwitterPostingTask.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/Social/Twitter/Tasks/TwitterPostingTask.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_AppInvitesProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_AppInvitesProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_BillingProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_BillingProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_FBProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_FBProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GMSGeneralProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GMSGeneralProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GMSGiftsProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GMSGiftsProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GMSInvitationProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GMSInvitationProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GMSQuestsEventsProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GMSQuestsEventsProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GMSRTMProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GMSRTMProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GoogleAdProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GoogleAdProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GoogleAnalyticsProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GoogleAnalyticsProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GooglePlayUtilsProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_GooglePlayUtilsProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_ImmersiveModeProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_ImmersiveModeProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_LicenseManagerProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_LicenseManagerProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_NotificationProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_NotificationProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_PlusButtonProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_PlusButtonProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_PoupsProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_PoupsProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_ProxyPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_ProxyPool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_SocialSharingProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_SocialSharingProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_TVControllerProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_TVControllerProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AndroidNative.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AndroidNative.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Analytics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Analytics/AndroidGoogleAnalytics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Analytics/AndroidGoogleAnalytics.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/AppLicensing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/AppLicensing/AN_LicenseErrorCode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/AppLicensing/AN_LicenseErrorCode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/AppLicensing/AN_LicenseManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/AppLicensing/AN_LicenseManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/AppLicensing/AN_LicenseRequestResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/AppLicensing/AN_LicenseRequestResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/AppLicensing/AN_LicenseStatusCode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/AppLicensing/AN_LicenseStatusCode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Enums.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Enums/AN_CameraCaptureType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Enums/AN_CameraCaptureType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Enums/AN_ExternalStorageType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Enums/AN_ExternalStorageType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Enums/AN_Permission.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Enums/AN_Permission.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Enums/AN_PermissionState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Enums/AN_PermissionState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Enums/AN_PushNotificationService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Enums/AN_PushNotificationService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Enums/AN_SettingsActivityAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Enums/AN_SettingsActivityAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/AddressBookController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/AddressBookController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/AndroidAppInfoLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/AndroidAppInfoLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/AndroidCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/AndroidCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/AndroidCameraImageFormat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/AndroidCameraImageFormat.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/AndroidNativeUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/AndroidNativeUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/AndroidSocialGate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/AndroidSocialGate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/ImmersiveMode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/ImmersiveMode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/PermissionsManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/PermissionsManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/TVAppController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/TVAppController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Models/AN_Locale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Models/AN_Locale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Models/AN_NetworkInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Models/AN_NetworkInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Models/AndroidApp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Models/AndroidApp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Models/PackageAppInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Models/PackageAppInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Notifications.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Notifications/AndroidNotificationBuilder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Notifications/AndroidNotificationBuilder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Notifications/AndroidNotificationManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Notifications/AndroidNotificationManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Notifications/AndroidToast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Notifications/AndroidToast.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Notifications/ParsePushesStub.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Notifications/ParsePushesStub.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Notifications/Templates.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Notifications/Templates/LocalNotificationTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Notifications/Templates/LocalNotificationTemplate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Results.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Results/AN_AccessTokenResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Results/AN_AccessTokenResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Results/AN_DeviceCodeResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Results/AN_DeviceCodeResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Results/AN_GrantPermissionsResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Results/AN_GrantPermissionsResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Results/AN_PackageCheckResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Results/AN_PackageCheckResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Results/AN_RefreshTokenResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Results/AN_RefreshTokenResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Results/GP_AdvertisingIdLoadResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Results/GP_AdvertisingIdLoadResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Results/GallerySaveResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Results/GallerySaveResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Templates.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Templates/AndroidABAddress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Templates/AndroidABAddress.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Templates/AndroidABChat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Templates/AndroidABChat.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Templates/AndroidABEmail.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Templates/AndroidABEmail.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Templates/AndroidABOrganization.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Templates/AndroidABOrganization.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Templates/AndroidContactInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Templates/AndroidContactInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Templates/AndroidImagePickResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Templates/AndroidImagePickResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Templates/AndroidImagesPickResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Templates/AndroidImagesPickResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Util.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Util/ANMiniJSON.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Util/ANMiniJSON.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/AMM_Manager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/AMM_Manager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Core/AMM_Settings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Core/AMM_Settings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Editor/AMM_AddPermissionDialog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Editor/AMM_AddPermissionDialog.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Editor/AMM_AddPropertyDialog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Editor/AMM_AddPropertyDialog.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Editor/AMM_AddValueDialog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Editor/AMM_AddValueDialog.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Editor/AMM_ManifestManagerMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Editor/AMM_ManifestManagerMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Editor/AMM_ManifestManagerWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Editor/AMM_ManifestManagerWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Models/AMM_ActivityTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Models/AMM_ActivityTemplate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Models/AMM_ApplicationTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Models/AMM_ApplicationTemplate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Models/AMM_BaseTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Models/AMM_BaseTemplate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Models/AMM_ManifestPermission.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Models/AMM_ManifestPermission.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Models/AMM_PropertyTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Models/AMM_PropertyTemplate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Models/AMM_Template.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/Models/AMM_Template.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/ManifestManager/default.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Data/SA_Converter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Data/SA_Converter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Data/SA_MiniJSON.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Data/SA_MiniJSON.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Content.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Content/sa_logo_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Content/sa_logo_small.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Content/sa_logo_small_light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Content/sa_logo_small_light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Scripts/SA_Bool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Scripts/SA_Bool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Scripts/SA_Instalation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Scripts/SA_Instalation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Scripts/SA_RemoveTool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Scripts/SA_RemoveTool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Scripts/SA_Tools.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Scripts/SA_Tools.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Scripts/SA_VersionsManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Scripts/SA_VersionsManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Scripts/SA_YesNo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Editor/Scripts/SA_YesNo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Effetcs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Effetcs/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Effetcs/Animations/Tween.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Effetcs/Animations/Tween/Enums.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Effetcs/Animations/Tween/Enums/SA_EaseType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Effetcs/Animations/Tween/Enums/SA_EaseType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Effetcs/Animations/Tween/Methods.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Effetcs/Animations/Tween/Methods/SA_ValuesTween.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Effetcs/Animations/Tween/Methods/SA_ValuesTween.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Effetcs/Animations/Tween/Pixelplacement.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Effetcs/Animations/Tween/Pixelplacement/iTween.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Effetcs/Animations/Tween/Pixelplacement/iTween/SA_iTween.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Effetcs/Animations/Tween/Pixelplacement/iTween/SA_iTween.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Models/SA_Error.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Models/SA_Error.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Models/SA_Invoker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Models/SA_Invoker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Models/SA_PrefabAsyncLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Models/SA_PrefabAsyncLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Models/SA_Result.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Models/SA_Result.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Models/SA_ScreenshotMaker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Models/SA_ScreenshotMaker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Models/SA_WWWTextureLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Models/SA_WWWTextureLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Modules.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Modules/SA_Config.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Modules/SA_Config.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Extensions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Extensions/SA_UnityExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Extensions/SA_UnityExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Modules.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Modules/SA_Files.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Modules/SA_Files.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Modules/SA_GeneralUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Modules/SA_GeneralUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Modules/SA_IdFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Modules/SA_IdFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Modules/SA_Loader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Modules/SA_Loader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Modules/SA_Screen.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Modules/SA_Screen.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Patterns.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Patterns/SA_NonMonoSingleton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Patterns/SA_NonMonoSingleton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Patterns/SA_Singleton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Common/Utilities/Patterns/SA_Singleton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Advertisement.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Advertisement/SA_Ad_EditorUIController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Advertisement/SA_Ad_EditorUIController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Advertisement/SA_EditorAd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Advertisement/SA_EditorAd.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/InAppPurchaces.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/InAppPurchaces/SA_EditorInApps.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/InAppPurchaces/SA_EditorInApps.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/InAppPurchaces/SA_InApps_EditorUIController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/InAppPurchaces/SA_InApps_EditorUIController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Notifications.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Notifications/SA_EditorNotificationType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Notifications/SA_EditorNotificationType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Notifications/SA_EditorNotifications.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Notifications/SA_EditorNotifications.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Notifications/SA_Notifications_EditorUIController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Notifications/SA_Notifications_EditorUIController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Advertisement.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Advertisement/blue_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Advertisement/blue_background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Advertisement/close_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Advertisement/close_button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Advertisement/install_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Advertisement/install_button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Advertisement/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Advertisement/logo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Advertisement/play_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Advertisement/play_button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Advertisement/powered_by.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Advertisement/powered_by.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Common.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Common/pannel_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Common/pannel_bg.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/InApps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/InApps/Checkmark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/InApps/Checkmark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/InApps/sa_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/InApps/sa_logo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Notifications.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Notifications/achievement_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Notifications/achievement_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Notifications/error_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Notifications/error_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Notifications/leaderboards_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Notifications/leaderboards_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Notifications/notification_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Graphics/Notifications/notification_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Prefabs/AdsEditorTestingUI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Prefabs/AdsEditorTestingUI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Prefabs/EventSystem.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Prefabs/EventSystem.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Prefabs/InAppsEditorTestingUI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Prefabs/InAppsEditorTestingUI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Prefabs/NotificationsEditorTestingUI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/UI/Prefabs/NotificationsEditorTestingUI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Utilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Utilities/SA_EditorTesting.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Utilities/SA_EditorTesting.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Utilities/SA_UIHightDependence.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Utilities/SA_UIHightDependence.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Utilities/SA_UIWidthDependence.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/Utilities/SA_UIWidthDependence.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/xTextScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/xTextScene/SA_EditorTestingSceneController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/xTextScene/SA_EditorTestingSceneController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/xTextScene/UITestScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/EditorTesting/xTextScene/UITestScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res/AndroidManifest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res/AndroidManifest.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res/project.properties.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res/res.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res/res/values.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res/res/values/analytics.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res/res/values/analytics.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res/res/values/ids.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res/res/values/ids.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res/res/values/version.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res/res/values/version.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res/res/xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res/res/xml/file_paths.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AN_Res/res/xml/file_paths.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AndroidManifest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/AndroidManifest.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/androidnative.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/androidnative.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/androidnative.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/androidnative.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/app_licensing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/app_licensing/an_licensing_library.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/app_licensing/an_licensing_library.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/billing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/billing/an_billing.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/billing/an_billing.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/billing/an_billing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/billing/an_billing.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/firebase.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/firebase/firebase-analytics-impl.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/firebase/firebase-analytics-impl.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/firebase/firebase-analytics.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/firebase/firebase-analytics.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/firebase/firebase-common.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/firebase/firebase-common.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/firebase/firebase-iid.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/firebase/firebase-iid.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/an_googleplay.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/an_googleplay.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/an_googleplay.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/an_googleplay.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-ads-lite.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-ads-lite.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-ads-lite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-ads-lite.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-ads.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-ads.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-ads.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-ads.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-analytics-impl.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-analytics-impl.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-analytics-impl.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-analytics-impl.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-analytics.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-analytics.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-analytics.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-analytics.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-appinvite.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-appinvite.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-appinvite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-appinvite.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-auth-base.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-auth-base.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-auth-base.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-auth-base.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-auth.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-auth.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-auth.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-auth.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-base.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-base.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-base.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-base.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-basement.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-basement.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-basement.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-basement.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-drive.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-drive.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-drive.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-drive.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-games.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-games.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-games.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-games.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-gcm.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-gcm.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-gcm.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-gcm.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-iid.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-iid.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-iid.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-iid.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-plus.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-plus.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-plus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/google_play/play-services-plus.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/libs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/libs/an_sa_soomla.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/libs/an_sa_soomla.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/libs/android-support-v4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/libs/android-support-v4.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/libs/image-chooser-library-1.6.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/libs/image-chooser-library-1.6.0.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/libs/support-v4-24.0.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/libs/support-v4-24.0.0.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/social.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/social/an_social.jar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/social/an_social.jar.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/social/an_social.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/social/an_social.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/social/twitter4j-core-4.0.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/NativeLibraries/Android/social/twitter4j-core-4.0.4.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Settings/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Settings/Resources/AndroidNativeSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Settings/Resources/AndroidNativeSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Settings/Resources/SocialSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Settings/Resources/SocialSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Versions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Versions/AN_VersionInfo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Versions/AN_VersionInfo.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Versions/MSP_VersionInfo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Support/Versions/MSP_VersionInfo.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project_resources/scenes/game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project_resources/scenes/game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project_resources/scenes/gameSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project_resources/scenes/gameSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project_resources/scripts/game/GameplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project_resources/scripts/game/GameplayManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project_resources/scripts/others/AndroidManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project_resources/scripts/others/AndroidManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project_resources/scripts/others/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project_resources/scripts/others/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/project_resources/scripts/splash/SplashUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project_resources/scripts/splash/SplashUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../EndlessGame/Assets/Scripts/Editor/AssetBundlesPipeline.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../EndlessGame/Assets/Scripts/Screens/PauseScreen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../EndlessGame/Assets/Scripts/Services/GoogleAdmobService.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OdeH1HjYsyjEk9vxgFOvqoFvbZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath $PROJECT_DIR$ -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="16259">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="16259" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da911e54-77ca-47aa-9b94-121d7dd7a204" name="Changes" comment="" />
+      <created>1681894796824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681894796824</updated>
+      <workItem from="1681894803325" duration="3730000" />
+      <workItem from="1681914968543" duration="5000" />
+      <workItem from="1681918610850" duration="762000" />
+      <workItem from="1681921216856" duration="1448000" />
+      <workItem from="1681923963252" duration="5832000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/project_resources/scripts/others/GameManager.cs</url>
+          <line>200</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/project_resources/scripts/others/GameManager.cs" initialLine="266" containingFunctionPresentation="method 'ShareScreenshot'">
+            <startOffsets>
+              <option value="5742" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5776" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/AndroidSocialGate.cs</url>
+          <line>92</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/Features/AndroidSocialGate.cs" initialLine="92" containingFunctionPresentation="method 'StartShareIntentWithSubject'">
+            <startOffsets>
+              <option value="3831" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4108" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_SocialSharingProxy.cs</url>
+          <line>8</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Modules/AndroidNative/Scripts/System/APIBridge/AN_SocialSharingProxy.cs" initialLine="8" containingFunctionPresentation="method 'CallActivityFunction'">
+            <startOffsets>
+              <option value="263" />
+            </startOffsets>
+            <endOffsets>
+              <option value="317" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

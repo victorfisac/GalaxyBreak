@@ -18,7 +18,6 @@ public class GameManager : MonoBehaviour
 	private int currentShip;					// Current selected ship
 	private int noAds;							// Purchased no advertising state
 	private int totalTimes;						// Total times played
-	#if !UNITY_EDITOR
 	private bool isSplash;						// Current scene is splash screen state
 	private bool goodAchievement;				// Good achievement unlocked state
 	private bool increibleAchievement;			// Increible achievement unlocked state
@@ -27,18 +26,14 @@ public class GameManager : MonoBehaviour
 	private bool buyShipAchievement;			// Bought new ship achievement unlocked state
 	private SplashUI splashUI;					// Splash interface reference
 	private bool needLeaderboard;				// Open leaderboard after authentication
-	private AndroidManager androidManager;		// Android manager reference
-	#endif
 	#endregion
 
 	#region Initialization Methods
-	#if !UNITY_EDITOR
 	public void SetReferences(SplashUI splash)
 	{
 		// Update null references
 		splashUI = splash;
 	}
-	#endif
 
 	#region Initialization Internal Methods
 	private void Initialize()
@@ -55,23 +50,16 @@ public class GameManager : MonoBehaviour
 		currentShip = 0;
 		totalTimes = 0;
 
-		#if !UNITY_EDITOR
 		isSplash = false;
 		goodAchievement = false;
 		increibleAchievement = false;
 		awesomeAchievement = false;
 		bossAchievement = false;
 		buyShipAchievement = false;
-		#endif
 
 		LoadData();
 
-		// Initialize platform manager
-		#if !UNITY_EDITOR
-		androidManager = AndroidManager.Instance;
-		#endif
-
-		#if DEBUG_INFO
+#if DEBUG_INFO
 		Debug.Log("GameManager: game manager initialized successfully");
 		#endif
 	}
@@ -91,13 +79,11 @@ public class GameManager : MonoBehaviour
 		PlayerPrefs.SetInt("NoAds", noAds);
 		PlayerPrefs.SetInt("TotalTimes", totalTimes);
 		for (int i = 0; i < ships.Length; i++) PlayerPrefs.SetInt("Ship" + i, ships[i]);
-		#if !UNITY_EDITOR
 		PlayerPrefs.SetInt("GoodAchievement", (goodAchievement ? 1 : 0));
 		PlayerPrefs.SetInt("IncreibleAchievement", (increibleAchievement ? 1 : 0));
 		PlayerPrefs.SetInt("AwesomeAchievement", (awesomeAchievement ? 1 : 0));
 		PlayerPrefs.SetInt("BossAchievement", (bossAchievement ? 1 : 0));
 		PlayerPrefs.SetInt("BuyShipAchievement", (buyShipAchievement ? 1 : 0));
-		#endif
 
 		// Save all data in PlayerPrefs to disk
 		PlayerPrefs.Save();
@@ -127,13 +113,11 @@ public class GameManager : MonoBehaviour
 			noAds = PlayerPrefs.GetInt("NoAds");
 			totalTimes = PlayerPrefs.GetInt("TotalTimes");
 			for (int i = 0; i < ships.Length; i++) ships[i] = PlayerPrefs.GetInt("Ship" + i);
-			#if !UNITY_EDITOR
 			goodAchievement = (PlayerPrefs.GetInt("GoodAchievement") == 1);
 			increibleAchievement = (PlayerPrefs.GetInt("IncreibleAchievement") == 1);
 			awesomeAchievement = (PlayerPrefs.GetInt("AwesomeAchievement") == 1);
 			bossAchievement = (PlayerPrefs.GetInt("BossAchievement") == 1);
 			buyShipAchievement = (PlayerPrefs.GetInt("BuyShipAchievement") == 1);
-			#endif
 
 			// Initialize external members
 			AudioListener.volume = volume;
@@ -146,55 +130,9 @@ public class GameManager : MonoBehaviour
 	#endregion
 	#endregion
 
-	#if !UNITY_EDITOR
 	#region Services Methods
-	public void InitPlayServices()
-	{
-		#if DEBUG_INFO
-		Debug.Log("GameManager: attempting to initialized Google Play Services");
-		#endif
-
-		#if UNITY_ANDROID
-		androidManager.InitPlayServices();
-		#endif
-	}
-
 	public void CheckAchievements()
 	{
-		if (bestScore >= ProjectManager.goodAchievementScore)
-		{
-			goodAchievement = true;
-			UploadAchievement(ProjectManager.goodAchievement);
-		}
-
-		if (bestScore >= ProjectManager.increibleAchievementScore)
-		{
-			increibleAchievement = true;
-			UploadAchievement(ProjectManager.increibleAchievement);
-		}
-
-		if (bestScore >= ProjectManager.awesomeAchievementScore)
-		{
-			awesomeAchievement = true;
-			UploadAchievement(ProjectManager.awesomeAchievement);
-		}
-
-		if (bestScore >= ProjectManager.bossAchievementScore)
-		{
-			bossAchievement = true;
-			UploadAchievement(ProjectManager.bossAchievement);
-		}
-
-		for (int i = 1; i < ships.Length; i++)
-		{
-			if (ships[i] == 1)
-			{
-				buyShipAchievement = true;
-				UploadAchievement(ProjectManager.buyShipAchievement);
-				break;
-			}
-		}
-
 		SaveData();
 
 		// Switch to game scene if current scene is splash screen
@@ -210,25 +148,12 @@ public class GameManager : MonoBehaviour
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to show leaderboard");
 		#endif
-
-		#if UNITY_ANDROID
-		if (!androidManager.PlayServicesConnected)
-		{
-			androidManager.NeedLeaderboard = true;
-			InitPlayServices();
-		}
-		else androidManager.ShowLeaderboard(leaderboard);
-		#endif
 	}
 
 	public void UploadLeaderboard(string leaderboard, float score)
 	{
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to upload score: " + score.ToString("00") + " to leaderboard id: " + leaderboard);
-		#endif
-
-		#if UNITY_ANDROID
-		androidManager.UploadLeaderboard(leaderboard, score);
 		#endif
 	}
 
@@ -237,10 +162,6 @@ public class GameManager : MonoBehaviour
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to show achievements interface");
 		#endif
-
-		#if UNITY_ANDROID
-		androidManager.ShowAchievements();
-		#endif
 	}
 
 	public void ResetAchievements()
@@ -248,20 +169,12 @@ public class GameManager : MonoBehaviour
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to reset achievements");
 		#endif
-
-		#if UNITY_ANDROID
-		androidManager.ResetAchievements();
-		#endif
 	}
 
 	public void UploadAchievement(string achievement)
 	{
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to submit achievement id: " + achievement);
-		#endif
-
-		#if UNITY_ANDROID
-		androidManager.UploadAchievement(achievement);
 		#endif
 	}
 	#endregion
@@ -272,20 +185,12 @@ public class GameManager : MonoBehaviour
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to purchase product id: " + product);
 		#endif
-
-		#if UNITY_ANDROID
-		androidManager.PurchaseProduct(product);
-		#endif
 	}
 
 	public void RestorePurchases()
 	{
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to restore purchases");
-		#endif
-
-		#if UNITY_ANDROID
-		androidManager.RestorePurchases();
 		#endif
 	}
 	#endregion
@@ -301,10 +206,6 @@ public class GameManager : MonoBehaviour
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to share screenshot");
 		#endif
-
-		#if UNITY_ANDROID
-		androidManager.ShareScreenshot(text, disable, enable);
-		#endif
 	}
 	#endregion
 
@@ -314,20 +215,12 @@ public class GameManager : MonoBehaviour
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to show preloader");
 		#endif
-
-		#if UNITY_ANDROID
-		androidManager.ShowPreloader();
-		#endif
 	}
 
 	public void HidePreloader()
 	{
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to hide preloader");
-		#endif
-
-		#if UNITY_ANDROID
-		androidManager.HidePreloader();
 		#endif
 	}
 
@@ -336,20 +229,12 @@ public class GameManager : MonoBehaviour
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to show a pop up");
 		#endif
-
-		#if UNITY_ANDROID
-		androidManager.ShowPopUp(title, message);
-		#endif
 	}
 
 	public void ShowRatePopUp(string title, string message)
 	{
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to open rate pop-up dialog");
-		#endif
-
-		#if UNITY_ANDROID
-		androidManager.ShowRatePopUp(title, message);
 		#endif
 	}
 	#endregion
@@ -360,20 +245,12 @@ public class GameManager : MonoBehaviour
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to show banner advertisement");
 		#endif
-
-		#if UNITY_ANDROID
-		androidManager.ShowBanner();
-		#endif
 	}
 
 	public void HideBanner()
 	{
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to hide banner advertisement");
-		#endif
-
-		#if UNITY_ANDROID
-		androidManager.HideBanner();
 		#endif
 	}
 
@@ -382,20 +259,12 @@ public class GameManager : MonoBehaviour
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to load intersticial advertisement");
 		#endif
-
-		#if UNITY_ANDROID
-		androidManager.LoadIntersticial();
-		#endif
 	}
 
 	public void ShowIntersticial()
 	{
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to show intersticial advertisement");
-		#endif
-
-		#if UNITY_ANDROID
-		androidManager.ShowIntersticial();
 		#endif
 	}
 
@@ -404,20 +273,12 @@ public class GameManager : MonoBehaviour
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to load rewarded video advertisement");
 		#endif
-
-		#if UNITY_ANDROID
-		androidManager.LoadRewardedVideo();
-		#endif
 	}
 
 	public void ShowRewardedVideo()
 	{
 		#if DEBUG_INFO
 		Debug.Log("GameManager: attempting to show rewarded video advertisement");
-		#endif
-
-		#if UNITY_ANDROID
-		androidManager.ShowRewardedVideo();
 		#endif
 	}
 
@@ -427,14 +288,11 @@ public class GameManager : MonoBehaviour
 		Debug.Log("GameManager: rewarded video advertisement started");
 		#endif
 
-		#if UNITY_ANDROID
 		HidePreloader();
 		GameObject gameplay = GameObject.FindWithTag("GameController");
 		if (gameplay) gameplay.GetComponent<GameplayManager>().DisableWatchAndWin();
-		#endif
 	}
 	#endregion
-	#endif
 
 	#region Properties
 	public static GameManager Instance
@@ -519,15 +377,10 @@ public class GameManager : MonoBehaviour
 	{
 		get 
 		{
-			#if !UNITY_EDITOR
-			return androidManager.ShowingAd;
-			#else
-			return true;
-			#endif
+			return false;
 		}
 	}
 
-	#if !UNITY_EDITOR
 	public bool IsSplash
 	{
 		get { return isSplash; }
@@ -566,8 +419,7 @@ public class GameManager : MonoBehaviour
 
 	public bool Connected
 	{
-		get { return androidManager.PlayServicesConnected; }
+		get { return false; }
 	}
-	#endif
 	#endregion
 }

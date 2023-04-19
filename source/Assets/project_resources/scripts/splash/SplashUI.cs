@@ -15,20 +15,18 @@ public class SplashUI : MonoBehaviour
     
     #region Private Members
 	private float timeCounter;				// Transition to game scene delay time counter
-	#if !UNITY_EDITOR
 	private GameManager gameManager;		// Game manager reference
-	#endif
     #endregion
     
     #region Main Methods
-	private void Start()
-    {
+	private IEnumerator Start()
+	{
+		yield return new WaitForSeconds(1f);
+		
 		// Initialize values
 		timeCounter = 0f;
-		#if !UNITY_EDITOR
 		gameManager = GameManager.Instance;
 		gameManager.SetReferences(this);
-		#endif
 
 		// Enable v-sync
 		Application.targetFrameRate = 60;
@@ -42,13 +40,10 @@ public class SplashUI : MonoBehaviour
 		// Switch to Game scene after splash duration delay
 		if (timeCounter >= splashDuration)
 		{
-			#if !UNITY_EDITOR
 			gameManager.IsSplash = true;
-			gameManager.InitPlayServices();
 			enabled = false;
-			#else
+			
 			ChangeScene();
-			#endif
 		}
 	}
     #endregion
